@@ -7,7 +7,7 @@ const Homepage = (props) => {
   return (
     <>
     <Head>
-      <title>React Meetups</title>
+      <title>Meetups</title>
       <meta name="description" content="Browse large collection of Meetups and also can upload meetups"/>
     </Head>
       <MeetupList meetups={props.meetups} />
